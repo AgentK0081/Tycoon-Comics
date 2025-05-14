@@ -1,35 +1,41 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Our Games</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>Anime Studio - Our Games</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">About</a></li>
-      <li><a href="games.html">Games</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-
-  <main>
+  <header>
     <h1>Our Games</h1>
-    <section>
-      <h2>Game Title</h2>
-      <p>Short description of the game and its features.</p>
-      <img src="game_image.jpg" alt="Game screenshot">
-      <h3>Promo Codes</h3>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="games.html">Games</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Featured Games</h2>
       <ul>
-        <li>ANIME2025 - Free 100 Coins</li>
-        <li>BOOSTXP - Double XP for 1 hour</li>
+        <li><strong>Anime Slayer X</strong> – Fight your way through anime-inspired worlds.</li>
+        <li><strong>Ninja Rebirth</strong> – Become the next great shinobi.</li>
       </ul>
-      <h3>Badges</h3>
+    </section>
+
+    <section class="card">
+      <h2>Promo Codes</h2>
       <ul>
-        <li>First Win</li>
-        <li>Master Fighter</li>
+        <li><code>SLAY2025</code> – Free 500 Coins</li>
+        <li><code>NINJA100</code> – Unlock a secret item</li>
       </ul>
+    </section>
+
+    <section class="card">
+      <h2>Badges</h2>
+      <img src="badge1.png" alt="Badge 1" class="badge-img">
+      <img src="badge2.png" alt="Badge 2" class="badge-img">
     </section>
   </main>
 </body>
