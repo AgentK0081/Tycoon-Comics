@@ -4,7 +4,117 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Roblox Anime Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #1f1f1f;
+      padding: 15px 30px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    main {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    h2, h3 {
+      color: #ffcc00;
+    }
+
+    section {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    ul {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    li {
+      margin: 5px 0;
+    }
+
+    form {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+    }
+
+    input, textarea {
+      width: 100%;
+      max-width: 500px;
+      padding: 12px;
+      border-radius: 6px;
+      border: none;
+      outline: none;
+    }
+
+    button {
+      padding: 10px 30px;
+      background-color: #ffcc00;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #e6b800;
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -14,11 +124,18 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-  
-  <!-- index.html -->
+
   <main>
     <h1>Welcome to Roblox Anime Studio</h1>
-    <p>We are a passionate team creating immersive anime-themed games on Roblox. Our mission is to bring your favorite anime worlds to life with action-packed experiences, custom mechanics, and an engaging community.</p>
+    <section>
+      <h2>About Our Group</h2>
+      <p>We are a passionate team of Roblox developers and anime fans. Our goal is to create the most engaging, visually stunning, and authentic anime games on Roblox. We thrive on community feedback and strive to make each game better than the last.</p>
+    </section>
+
+    <section>
+      <h2>Our Mission</h2>
+      <p>To bring your favorite anime stories to life with innovative gameplay, high-quality assets, and a supportive community. Join us on this journey to revolutionize anime experiences on Roblox.</p>
+    </section>
   </main>
 </body>
 </html>
