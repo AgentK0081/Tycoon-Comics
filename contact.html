@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact & Report Bug</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>Contact & Support</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">About</a></li>
-      <li><a href="games.html">Games</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <header>
+    <h1>Contact & Support</h1>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="games.html">Games</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-  <main>
-    <h1>Join Our Discord & Report Bugs</h1>
-    <p>Join our official Discord to stay updated and chat with our community:</p>
-    <a href="https://discord.gg/YOURINVITELINK" target="_blank">Join Discord</a>
+  <main class="container">
+    <section class="card">
+      <h2>Join Our Discord</h2>
+      <p>Stay updated, chat with the devs, and be part of the community!</p>
+      <a href="https://discord.gg/yourserver" target="_blank" class="btn">Join Discord</a>
+    </section>
 
-    <h2>Report a Bug</h2>
-    <p>Found a bug? Let us know using the form below or in our Discord bug-report channel.</p>
-    <form>
-      <label for="username">Roblox Username:</label><br>
-      <input type="text" id="username" name="username"><br>
-
-      <label for="bug">Bug Description:</label><br>
-      <textarea id="bug" name="bug"></textarea><br>
-
-      <button type="submit">Submit</button>
-    </form>
+    <section class="card">
+      <h2>Report a Bug</h2>
+      <p>If you found a bug in one of our games, please let us know by filling out this form:</p>
+      <form action="https://example.com/submit-bug" method="POST">
+        <input type="text" name="username" placeholder="Your Roblox Username" required>
+        <textarea name="bug" placeholder="Describe the bug..." required></textarea>
+        <button type="submit" class="btn">Submit Bug Report</button>
+      </form>
+    </section>
   </main>
 </body>
 </html>
